@@ -1,0 +1,306 @@
+/*Tablet & Mobile*/
+@media (max-width: 1023px) {
+	.header__content {
+		width: 720px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.header__content-list {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	.header__content-list nav {
+		display: none;
+	}
+
+	#mobile-menu {
+		display: block;
+		cursor: pointer;
+	}
+
+	#banner1 div ,
+	.banner__content-description {
+		display: none;
+	}
+
+	.banner__content-line1 {
+		font-size: 20pt;
+	}
+
+	.banner__content-line2 {
+		font-size: 26pt;
+	}
+
+	#btn1,
+	#btn2 {
+		width: 45%;
+		font-size: 14pt;
+	}
+	#btn2 {
+		margin-left: 10px;
+	}
+
+	.container__introduce,
+	.container__sale {
+		max-width: 720px;
+	}
+
+	.sale__content-text {
+		font-size: 36pt;
+	}
+
+	.product__title {
+		max-width: 100%;
+		padding: 0 15px;
+	}
+
+	.product__details-left i {
+		margin-left: 6px;
+	}
+
+	.product__details-left {
+		padding-left: 0;
+	}
+
+	.product__details-right {
+		font-size: 18pt;
+	}
+
+	.product__content-list {
+		max-width: 720px;
+	}
+
+	#card-img3 {
+		max-width: 100%;
+	}
+
+	.contact__main {
+		width: 100%;
+	}
+
+	.contact__title {
+		max-width: 720px;
+	}
+
+	.contact__img-btn button {
+		width: 60%;
+	}
+
+	.footer__col {
+		width: 50% !important;
+		line-height: 1.80857;
+		font-weight: normal;
+		display: flex;
+		align-items: center;
+	}
+
+	.footer__top-main {
+		max-width: 710px;
+	}
+
+	.footer__logo img {
+		width: initial;
+	}
+
+	.footer__col--special {
+		width: 33.33333% !important;
+	}
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+	.banner__content {
+		width: 738px;
+	}
+
+	.banner__content-img {
+		padding-top: 37px;
+	}
+
+	.product__content-card {
+		min-height: 375px;
+	}
+
+	#product1::before {
+		width: 33%;
+	}
+
+	.contact__content {
+		margin-left: 0;	
+	}
+}
+
+/*Mobile*/
+@media (max-width: 739px) {
+	#mobile-menu {
+		width: 100%;
+		height: 50px;
+		border-radius: 10px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	#mobile-menu i {
+		font-size: 20px;
+	}
+
+	.header__content-logo,
+	.header__content-list {
+		width: 100% !important;
+	}
+
+	.header__content-logo {
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	.header__content-list {
+		justify-content: center;
+	}
+
+	.background-banner {
+		background-size: cover;
+	}
+
+	.banner__content {
+		width: 360.4px;
+	}
+
+	.banner__content-detail {
+		top: 58%;
+	}
+
+	#banner1 {
+		display: none;
+	}
+
+	.banner__content-btn {
+		display: none;
+	}
+
+	.banner__content-item {
+		width: 100% !important;
+	}
+
+	.banner__content-line1 {
+		text-align: left;
+	}
+
+	.container__introduce {
+		max-width: 360.4px;
+	}
+
+	.product-col {
+		width: 100%;
+	}
+
+	#product1 {
+		margin-left: 0 !important;
+	}
+	#product1::before {
+		left: 0;
+		width: 33%;
+	}
+
+	#product2 {
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+	}
+
+	.introduce__btn {
+		width: 55%;
+	}
+
+	.introduce__product-name {
+		width: 50% !important;
+	}
+
+	.container__sale {
+		max-width: 360.4px;
+	}
+
+	.sale-col {
+		width: 100% !important;
+	}
+
+	.sale__content-img img {
+		width: 100%;
+		height: auto;
+	}
+
+	.product__title {
+		max-width: 100%;
+		padding: 0 15px;
+	}
+
+	.product__content-list {
+		max-width: 100%;
+	}
+
+	.product__content-col {
+		width: 100%;
+	}
+
+	.product__details-left {
+		padding-left: 10px;
+	}
+
+	.product__content-btn button {
+		width: 100%;
+	}
+
+	.contact__title,
+	.contact__content {
+		max-width: 100%;
+	}
+
+	.contact__title {
+		padding: 0 15px;
+	}
+
+	.contact-col {
+		width: 100%;
+	}
+
+	#contact-col2 {
+		margin-top: 20px;
+	}
+
+	.contact__content {
+		margin-left: 0;
+	}
+
+	.contact__img-btn button {
+		width: 100%;
+		height: 50px;
+		font-size: 14pt;
+	}
+
+	.footer__row-top,
+	.footer__row-bottom {
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	.footer__top-main {
+		max-width: 100%;
+	}
+
+	.footer__col,
+	.footer__col--special {
+		width: 100% !important;
+	}
+
+	.footer__col form {
+		width: 100%;
+	}
+
+	#footer-col1,
+	#footer-col2,
+	#footer-col3 {
+		padding-top: 20px;
+	}
+}
